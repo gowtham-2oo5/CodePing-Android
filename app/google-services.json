@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "67694069323",
+    "project_id": "codeping-985be",
+    "storage_bucket": "codeping-985be.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67694069323:android:34ffb445418b87517b6fce",
+        "android_client_info": {
+          "package_name": "com.codeping.android_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67694069323-39dl7cs8osa869dc0sfgni8sdcda6p2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codeping.android_client",
+            "certificate_hash": "158c85c89aa6dff92cbe975f6e1a442d6840f998"
+          }
+        },
+        {
+          "client_id": "67694069323-nnifsubsliips1ukqgmaqloj90n2m4b1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6fDhnT03h7e-D2c9Z2jtObjOXJBjufEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67694069323-nnifsubsliips1ukqgmaqloj90n2m4b1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

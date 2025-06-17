@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme using AppCompat as fallback -->
+    <style name="Theme.CodePingAndroidClient" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/emerald_primary</item>
+        <item name="colorPrimaryDark">@color/emerald_dark</item>
+        <item name="colorAccent">@color/emerald_secondary</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        
+        <!-- System UI -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- Material 3 Theme (if available) -->
+    <style name="Theme.CodePingAndroidClient.Material3" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/emerald_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/emerald_light</item>
+        <item name="colorOnPrimaryContainer">@color/emerald_dark</item>
+        
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/emerald_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/emerald_light</item>
+        <item name="colorOnSecondaryContainer">@color/emerald_dark</item>
+        
+        <!-- Surface colors -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorSurfaceVariant">@color/emerald_light</item>
+        <item name="colorOnSurfaceVariant">@color/emerald_dark</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/white</item>
+        
+        <!-- System UI -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.CodePing.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/codeping_logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.CodePingAndroidClient</item>
+    </style>
+</resources>
